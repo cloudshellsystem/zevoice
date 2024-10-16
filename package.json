@@ -1,15 +1,26 @@
 {
-  "name": "voix-sublime",
+  "name": "zevoice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Une application pour gérer les voix",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["voix", "synthèse", "texte à voix"],
+  "author": "Votre Nom",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-utilisateur/zevoice.git"
   }
 }
